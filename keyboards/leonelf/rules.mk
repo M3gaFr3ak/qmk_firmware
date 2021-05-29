@@ -4,9 +4,10 @@ MCU_FAMILY = STM32
 MCU_SERIES = STM32F1xx
 MCU = cortex-m3
 MCU_STARTUP = stm32f1xx
-#BOOTLOADER = stm32duino
+# BOOTLOADER = stm32duino
 ARMV = 7
-BOARD = OLIMEX_STM32_P107	#MCU changed to f105 in board.h
+BOARD = OLIMEX_STM32_P107
+# MCU changed to f105 in board.h
 PLATFORM_NAME = platform_f105_f107
 
 # Build Options

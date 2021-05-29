@@ -22,5 +22,6 @@
     "[markdown]": {
         "editor.trimAutoWhitespace": false,
         "files.trimTrailingWhitespace": false
-    }
+    },
+    "stm32-for-vscode.makePath": false
 }

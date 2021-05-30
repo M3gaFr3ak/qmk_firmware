@@ -27,8 +27,4 @@ NKRO_ENABLE = yes           # USB Nkey Rollover
 RGB_MATRIX_ENABLE = yes
 RGB_MATRIX_DRIVER = WS2812
 ENCODER_ENABLE = no
-EEPROM_DRIVER = i2c
-ENCODER_ENABLE = yes
-
-# Enter lower-power sleep mode when on the ChibiOS idle thread
-OPT_DEFS += -DCORTEX_ENABLE_WFI_IDLE=TRUE
+EEPROM_DRIVER = transient

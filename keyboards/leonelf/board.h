@@ -1,3 +1,7 @@
 #include_next <board.h>
-#undef STM32F107xC
-#define STM32F105xC
+
+#undef  BOARD_NAME
+#undef  STM32_HSECLK
+#undef  STM32_HSE_BYPASS
+#define BOARD_NAME              "Leonelf custom board"
+#define STM32_HSECLK            16000000

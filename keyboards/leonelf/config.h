@@ -24,7 +24,7 @@
 #define RGB_DI_PIN A1
 #define DRIVER_LED_TOTAL 123
 
-#define EEPROM_I2C_24LC256
+//#define EEPROM_I2C_24LC256
 #define I2C_DRIVER I2CD1
 #define I2C1_SCL_BANK GPIOB
 #define I2C1_SCL 8
